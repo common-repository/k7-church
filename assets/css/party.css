@@ -1,0 +1,27 @@
+#church-participant-form .field-container {
+    position: relative;
+    margin-bottom: 20px
+}
+
+#church-participant-form .field-msg {
+    display: none;
+    position: absolute;
+    left: 2px;
+    bottom: -14px;
+    font-size: 9px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.05em
+}
+
+#church-participant-form .field-msg.show {
+    display: block
+}
+
+#church-participant-form .error {
+    color: #901313
+}
+
+#church-participant-form .success {
+    color: #2f812f
+}
